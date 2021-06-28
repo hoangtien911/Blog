@@ -1,0 +1,202 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Title -->
+    <title> Travel blog </title>
+
+    <!-- Font Google -->
+    <link href="../css/font.css" rel="stylesheet" />
+
+    <!-- CSS Plugins -->
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/owl.carousel.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/owl.carousel.css" />
+    <link rel="stylesheet" href="../css/elegant-font-icons.css" />
+
+    <!-- main style -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
+</head>
+
+
+<body>
+
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <!--logo-->
+            <div class="nav-item">
+                <div class="logo">
+                    <a style="font-size: 25px; padding: 0; color: red; font-weight: 700;" href="../html/index.html">T</a><a style="font-size: 25px; padding: 0; font-weight: 700;" href="../html/index.html">ravel Blog</a>
+                </div>
+            </div>
+            <!--/-->
+            <!--navbar-collapse-->
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav ml-auto mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/index.html">Trang chủ</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="../html/blog-grid.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../html/contact.html">Liên hệ</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/login.html">Đăng nhập</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/register.html">Đăng ký</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!--/-->
+            <!--navbar-right-->
+            <div class="navbar-right ml-auto">
+                <div>
+                    <div class="d-flex justify-content-end">
+                        <div class="searchbar">
+                            <input class="search_input" type="text" name="" placeholder="Tìm kiếm..">
+                            <a href="#">
+                                <i class="icon_search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!--contact us-->
+    <section class="section pt-50">
+        <div class="container-fluid">
+            
+
+            <div class="row mb-20">
+                <div class="col-lg-12 mt-30">
+
+                    <div class="contact">
+                        <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h5>Liên hệ</h5>
+                    </div>
+                </div>
+            </div>
+                        <div class="google-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1102.9937556620073!2d105.80612420970684!3d21.585377363931112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x515f4860ede9e108!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgVGjDtG5nIHRpbiAmIFRydXnhu4FuIHRow7RuZyBUaMOhaSBOZ3V5w6pu!5e0!3m2!1svi!2s!4v1618127184086!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <form action="assets/php/mail.php" class="widget-form contact_form " method="POST" id="main_contact_form">
+                            <h6>Hãy liên hệ bất cứ lúc nào.</h6>
+                            <div class="alert alert-success contact_msg" style="display: none" role="alert">
+                                Your message was sent successfully.
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Họ tên*" required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Email*" required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Nội dung*" required="required"></textarea>
+                            </div>
+
+                            <button type="button" name="submit" class="btn-custom">Gửi đi</button>
+                        </form>
+                    </div>
+                </div>
+               
+            </div>
+
+        </div>
+    </section>
+
+    <!--newslettre-->
+    <section class="newslettre">
+        <div class="container-fluid">
+            <div class="newslettre-width text-center">
+                <div class="newslettre-info">
+                    <h5>Theo dõi Travel Blog</h5>
+                    <p> Đăng ký để nhận thông báo về bài viết mới nhất. </p>
+                </div>
+                <form action="#" class="newslettre-form">
+                    <div class="form-flex">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email của bạn.." required="required">
+                        </div>
+                        <button class="submit-btn" type="submit">Theo dõi</button>
+                    </div>
+                </form>
+                <div class="social-icones">
+                    <ul class="list-inline">
+                        <li>
+                            <a>
+                                <i class="fab fa-facebook-f"></i>Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="fab fa-youtube"></i>Youtube
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright">
+                        <p>Bài tập môn Thiết kế giao diện phần mềm.</p>
+                    </div>
+                    <div class="back">
+                        <a href="#" class="back-top" style="display: none;">
+                            <i class="arrow_up"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS JQuery, Popper, Bootstrap -->
+    <script src="../js/jquery-3.5.0.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- JS Plugins  -->
+    <script src="../js/ajax-contact.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/switch.js"></script>
+
+    <!-- JS main  -->
+    <script src="../js/main.js"></script>
+
+
+</body>
+</html>
